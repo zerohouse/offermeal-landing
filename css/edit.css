@@ -1,0 +1,94 @@
+
+#about {
+    background: white;
+    padding-bottom: 0;
+}
+
+
+.text-grey {
+    color: #686868
+}
+
+.grey-border {
+    border-color: #686868 !important;
+    margin: 0 auto !important;
+    max-width: 4rem !important;
+    margin-bottom: .3rem !important;
+}
+
+.max-image {
+    max-width: 100%;
+}
+
+#services {
+    background: #F4F4F4;
+}
+
+#vision {
+    background-image: url("../company/006_vision_bg.png");
+}
+
+#mission {
+    background-image: url("../company/007_mission_bg.png");
+}
+
+#footer {
+    background: #F4F4F4;
+}
+
+body, th, td, input, textarea, select, option, div, i, .ui-widget {
+    font-family: 'NanumSquare', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.text-bold {
+    font-weight: bold !important;
+}
+
+.sub {
+    color: #696969;
+    font-size: 120%
+}
+
+p.img-sub {
+}
+
+img.service {
+    height: 160px;
+}
+
+@media all and (max-width: 768px) {
+
+    header.masthead {
+        background-image: url("../company/002_cover_banner_crop02_M.png");
+    }
+}
+
+.pc {
+    display: initial;
+}
+
+
+.mobile {
+    display: none;
+}
+
+@media (max-width: 992px) {
+
+    .mobile {
+        display: initial;
+    }
+
+    .pc {
+        display: none;
+    }
+
+    .badges .badge-link img {
+        height: 40px !important;
+    }
+}
+
+html {
+    overflow-x: hidden;
+}
