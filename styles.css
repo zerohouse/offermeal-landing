@@ -360,9 +360,15 @@ h4 {
   .sixth .wrap {
     padding-left: 0;
   }
+  .sixth .wrap .text {
+    top: 0;
+  }
   .sixth img.main {
     margin-left: 90px;
     margin-right: -50px;
+  }
+  .sixth .banners {
+    margin-top: 200px;
   }
   .sixth .banners img {
     display: block;
