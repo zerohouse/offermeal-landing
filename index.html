@@ -88,8 +88,25 @@
             </section>
         </div>
     <div class="section">
+        <section class="second d-flex mobile">
+            <div class="full-width text-center" style="position: relative">
+                <img src="img/left.png" style="width:150px;left: calc(50% - 10px - 200px);bottom: -25px;">
+                <img src="img/middle.png" style="width:150px;left: calc(50% - 10px - 50px);bottom: 0px;">
+                <img src="img/right.png" style="width:150px;left: calc(50% - 10px + 100px);bottom: -50px;">
+                <div class="text text-left" style="left: 24px;top:100px;position: absolute">
+                    <h4 style="font-size: 22px;margin-bottom: 30px">다니엘 헤니가 선택한<br> 점심픽업 서비스</h4>
 
-        <section class="second d-flex">
+                    <h1 style="font-size: 32px">
+                        I offer you,<br> OFFERMEAL
+                    </h1>
+                    <a href="https://offermeal.com/link.html">
+                        <img src="img/play_btn.png" style="width: 130px;
+    bottom: 40px;
+    right: -160px;"></a>
+                </div>
+            </div>
+        </section>
+        <section class="second d-flex pc">
             <div class="full-width text-center" style="position: relative">
                 <img src="img/left.png" style="left: calc(50% - 40px - 460px);bottom: -100px;">
                 <img src="img/middle.png" style="left: calc(50% - 40px - 100px);bottom: -52px;">
@@ -136,10 +153,10 @@
                         <h2>
                             오퍼밀은
                             <br>
-                            식사 문화를 바꿉니다
+                            식사 문화를<br class="mobile"> 바꿉니다
                         </h2>
                         <h4>
-                            기다리지 않고 바로 픽업, 식비 고민까지 한번에 해결
+                            기다리지 않고 바로 픽업,<br class="mobile"> 식비 고민까지 한번에 해결
                         </h4>
                     </div>
                 </div>
@@ -244,14 +261,18 @@
         <section class="sixth d-flex">
             <div class="align-self-end full-width text-center">
                 <div class="wrap">
-                    <img class="main" style="width: 934px;
+
+                    <img class="main mobile" style="  width: 513px;
+                    margin-left: -110px;" src="img/008_mobile_appmarket_mobile.png">
+                    <img class="main pc" style="width: 934px;
     margin-left: -320px;" src="img/008_mobile_appmarket_mobile.png">
                     <div class="text">
                         <h2>
-                            이제 오퍼밀을<br>
-                            오퍼하세요
+                            전국의 맛집을<br>
+                            오퍼밀로<br>
+                            즐겨보세요
                         </h2>
-                        <h4> 트랜디한 점심을 만드는 방법<br>
+                        <h4> 트랜디한 식사문화를 만드는 방법<br>
                             지금 바로 다운로드 하세요
                         </h4>
                         <div class="banners">
@@ -825,15 +846,15 @@
             $('.to-top').hide()
         });
 
-        var ua = navigator.userAgent.toLowerCase();
-        var isAndroid = ua.indexOf("android") > -1; //&& ua.indexOf("mobile");
-        if (isAndroid) {
-            $('.ios').hide();
-        }
-        var isIOs = ua.match(/(iPad|iPhone|iPod)/i);
-        if (isIOs) {
-            $('.android').hide();
-        }
+        // var ua = navigator.userAgent.toLowerCase();
+        // var isAndroid = ua.indexOf("android") > -1; //&& ua.indexOf("mobile");
+        // if (isAndroid) {
+        //     $('.ios').hide();
+        // }
+        // var isIOs = ua.match(/(iPad|iPhone|iPod)/i);
+        // if (isIOs) {
+        //     $('.android').hide();
+        // }
     });
 </script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
